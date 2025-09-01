@@ -4,7 +4,7 @@ Bem-vindo ao repositório do meu **currículo em formato de pôster**, desenvolv
 
 ## 🚀 Visualize Online
 
-👉 [Acesse meu currículo em formato pôster](https://SEU-USUARIO.github.io/sergio-curriculo/)  
+👉 [Acesse meu currículo em formato pôster](https://sergiotjr.github.io/sergio-curriculo/)  
 
 > Disponível 24h no GitHub Pages, totalmente responsivo para desktop e mobile.
 
@@ -35,4 +35,4 @@ Destaques:
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/SEU-USUARIO/sergio-curriculo.git
+   git clone https://github.com/sergiotjr/sergio-curriculo.git
