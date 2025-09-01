@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Currículo em formato de pôster — Sergio Teixeira Junior" />
+  <title>Currículo — Sergio Teixeira Junior</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #0b1222;
+      --ink: #e2e8f0;
+      --muted: #94a3b8;
+      --brand: #38bdf8;
+      --accent: #a78bfa;
+    }
+    body {
+      margin: 0;
+      font-family: "Inter", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.6;
+    }
+    .poster {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    header h1 {
+      font-size: clamp(28px, 6vw, 48px);
+      margin: 0;
+      color: var(--brand);
+    }
+    header p {
+      font-size: clamp(14px, 2vw, 18px);
+      color: var(--muted);
+    }
+    header a {
+      color: var(--brand);
+      text-decoration: none;
+    }
+    section {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    section h2 {
+      font-size: clamp(18px, 2.5vw, 22px);
+      margin-top: 0;
+      color: var(--accent);
+    }
+    ul {
+      padding-left: 20px;
+      margin: 0.5rem 0;
+    }
+    li {
+      margin-bottom: 6px;
+    }
+    /* Grid responsivo */
+    .grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 20px;
+    }
+    @media (max-width: 768px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    /* Tags de competências */
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+    .tag {
+      background: rgba(148, 163, 184, 0.15);
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 13px;
+      border: 1px solid rgba(148, 163, 184, 0.3);
+    }
+    /* Destaques visuais */
+    .highlights {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 10px;
+    }
+    .highlight {
+      flex: 1;
+      min-width: 120px;
+      text-align: center;
+      background: rgba(56, 189, 248, 0.1);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      border-radius: 10px;
+      padding: 10px;
+    }
+    .highlight span {
+      display: block;
+      font-size: 20px;
+      font-weight: bold;
+      color: var(--brand);
+    }
+  </style>
+</head>
+<body>
+  <main class="poster">
+    <header>
+      <h1>Sergio Teixeira Junior</h1>
+      <p>Gestão Administrativa • Otimização de Processos • Suporte a Sistemas • Transição para TI/Data</p>
+      <p>🔗 <a href="https://linkedin.com/in/sergio-teixeira-junior" target="_blank">linkedin.com/in/sergio-teixeira-junior</a></p>
+    </header>
+
+    <section>
+      <h2>Resumo Estratégico</h2>
+      <p>Profissional com 23 anos de experiência em operações administrativas e suporte a sistemas, com sólida base em <strong>Sistemas de Informação</strong> e especialização em <strong>Data Science & Analytics</strong>. Histórico de liderança, implantação de processos, governança e otimização de rotinas, integrando tecnologias para elevar eficiência, reduzir custos e ampliar a satisfação do cliente.</p>
+      <div class="highlights">
+        <div class="highlight"><span>-15%</span> custos</div>
+        <div class="highlight"><span>-20%</span> tempo processos</div>
+        <div class="highlight"><span>45</span> liderados</div>
+        <div class="highlight"><span>+25%</span> satisfação</div>
+      </div>
+    </section>
+
+    <div class="grid">
+      <section>
+        <h2>Trajetória Profissional</h2>
+        <h3>Gerente Administrativo — Banco Bradesco (2018–2023)</h3>
+        <ul>
+          <li>Redução de custos em 15% em 5 anos.</li>
+          <li>Liderança de até 45 colaboradores.</li>
+          <li>Automação de rotinas (-20% no tempo de execução).</li>
+          <li>Gestão de contratos, compliance e auditorias internas.</li>
+        </ul>
+
+        <h3>Supervisor Administrativo — Banco Bradesco (2008–2018)</h3>
+        <ul>
+          <li>Atendimento humanizado (+25% satisfação).</li>
+          <li>Gestão de equipe (~20) e fluxo financeiro.</li>
+          <li>Treinamentos com +15% em vendas anuais.</li>
+        </ul>
+
+        <h3>Caixa Bancário — Banco Bradesco (2001–2008)</h3>
+        <ul>
+          <li>Atendimento a clientes e suporte a sistemas bancários.</li>
+        </ul>
+
+        <h3>Destaques</h3>
+        <ul>
+          <li>🏆 1º lugar (2017) e 2º lugar (2021) — Agentes de Mobilidade Digital.</li>
+          <li>🏅 2º lugar PADE (2018).</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Competências-Chave</h2>
+        <div class="tags">
+          <span class="tag">Gestão Administrativa</span>
+          <span class="tag">KPIs & Controles</span>
+          <span class="tag">Governança & Compliance</span>
+          <span class="tag">Implantação de Sistemas</span>
+          <span class="tag">Inventário & Ativos de TI</span>
+          <span class="tag">Auditorias Internas</span>
+          <span class="tag">Análise de Dados</span>
+          <span class="tag">SAP</span>
+          <span class="tag">Power BI</span>
+          <span class="tag">Excel Avançado</span>
+        </div>
+
+        <h2>Formação Acadêmica</h2>
+        <ul>
+          <li>Pós-Graduação em Data Science e Analytics — UNESC — 2025 (em andamento)</li>
+          <li>MBA em Administração, Finanças e Negócios — ESAB — 2009</li>
+          <li>Bacharelado em Sistemas de Informação — UNIBAN — 2005</li>
+        </ul>
+
+        <h2>Cursos & Certificações</h2>
+        <ul>
+          <li>Fundamentos do Gerenciamento de Projetos — Google — 2024</li>
+          <li>Especialização em Compliance — Unibrad — 2020</li>
+          <li>Prevenção à Lavagem de Dinheiro — Unibrad — 2019</li>
+          <li>Ferramentas: SAP • Power BI • Excel/Office (avançado)</li>
+          <li>Inglês: Intermediário</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
